@@ -1,0 +1,83 @@
+// Side Nav SCSS
+
+.nav-wrapper {
+    display: block;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+
+    .initial-wrapper {
+        display: block;
+        justify-content: center;
+
+        p {
+            display: block;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 600;
+            margin: 30px auto;
+        }
+    }
+
+    .links-wrapper {
+
+        text-align: center;
+        ul {
+            list-style: none;
+            margin: none;
+            padding: 0px;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                li {
+                    margin: 20px 0px;
+                    padding: 20px 0px;
+                    font-size: 1.2rem;
+                    font-weight: 600;  
+                    
+                }
+    
+                li:hover {
+                    border-top: solid 2px black;
+                    border-bottom: solid 2px black;
+                }
+            }
+
+            
+        }
+    }
+
+    .social-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        
+        .github {
+            font-size: 3rem;
+            margin: auto;
+            
+        }
+        .linkedin {
+            font-size: 3rem;
+            margin: auto;
+        }
+
+        a {
+            color: black;
+        }
+
+        .linkedin-link:hover {
+            color: #0072b1;            
+        }
+        .github-link:hover {
+            color: #666;
+        }
+    }
+
+}

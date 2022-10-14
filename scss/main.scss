@@ -1,0 +1,15 @@
+// Index Imports
+
+@import 'header/index.scss';
+@import 'side_nav/index.scss';
+@import 'projects/index.scss';
+@import 'contact/_index.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0px;
+}

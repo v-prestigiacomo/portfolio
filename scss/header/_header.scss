@@ -1,0 +1,35 @@
+// Header SCSS
+
+.main-wrapper {
+    display: block;
+    .header-wrapper {
+        display: grid;
+        background-image: url(../img/header.jpg);
+        background-size: cover;
+        height: 100vh;
+        .header-text {
+            display: grid;
+            background-color: rgba(#fff, 0.8);
+            margin: auto;
+            width: 1000px;
+            height: 200px;
+            justify-items: center;
+
+            h1 {
+                display: block;
+                font-size: 3rem;
+                margin: auto;
+                color: black;
+            }
+
+            p {
+                display: block;
+                font-size: 2rem;
+                margin: auto;
+                color: black;
+            }
+        }
+
+        
+    }
+}
