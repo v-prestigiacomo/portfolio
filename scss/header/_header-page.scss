@@ -1,0 +1,26 @@
+// About page Header SCSS
+
+.about-wrapper {
+    .header-about-wrapper {
+        display: grid;
+        background-image: url(/img/header-top.jpg);
+        background-size: cover;
+        height: 200px;
+        justify-content: center;
+
+        .header-about-title {
+            display: inline-block;
+            font-size: 2rem;
+            background-color: rgba(#fff, 0.8);
+            width: 400px;
+            margin: auto;
+            text-align: center;
+            vertical-align: middle;
+
+            h1 {
+                margin: auto;
+                vertical-align: middle;
+            }
+        }
+    }
+}

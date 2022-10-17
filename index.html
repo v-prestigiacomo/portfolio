@@ -11,25 +11,33 @@
         <title>Vincenzo Prestigiacomo's Portfolio</title>
     </head>
     <body>
-        <div class="main-wrapper">
+        <div class="wrapper">
             <div class="header-wrapper">
                 <div class="header-text">
                     <h1>My Name Is Vincenzo Prestigiacomo</h1>
                     <p>I'm a Web Developer</p>
                 </div>
+                <div class="scroll-wrapper">
+                    <a href="#projects">
+                        <p>Scroll Down</p>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
             </div>
             <div class="nav-wrapper">
                 <div class="initial-wrapper">
-                    <p>VP</p>
+                    <a href="/index.html"><p>VP</p></a>
                 </div>
                 <div class="links-wrapper">
                     <ul>
-                        <a href="#"><li>About Me</li></a>
-                        <a href="#"><li>My Portfolio</li></a>
-                        <a href="#"><li>Coding Examples</li></a>
-                        <a href="#"><li>SCSB Scheme</li></a>
-                        <a href="#"><li>Contact Me</li></a>
-                        
+                        <a href="/about_me.html"><li>About Me</li></a>
+                        <a href="/#projects"><li>My Portfolio</li></a>
+                        <a href="/code_examples.html"><li>Coding Examples</li></a>
+                        <a href="/scs.html"><li>SCSB Scheme</li></a>
+                        <a href="#contact"><li>Contact Me</li></a>
                     </ul>
                 </div>
                 <div class="social-wrapper">
@@ -45,24 +53,53 @@
                     </div>
                 </div>
             </div>
-            <div class="projects-wrapper">
+            <div class="projects-wrapper" id="projects">
                 <div class="project-grid">
                     <div class="project-1">
-
+                        <a href="https://v-prestigiacomo.github.io/html_css_reflection/" target="_blank" class="project-link">
+                            <img src="/img/p1.jpg" alt="project one image, clone of the netmatters website">
+                            <p class="hover-text">A Reproduction of the NetMatters Home Page</p>
+                            <p class="project-1-name">Project One</p>
+                        </a>
                     </div>
                     <div class="project-2">
-
+                        <a href="#" class="project-link">
+                            <img src="/img/unknown.jpg" alt="unknown project">
+                            <p class="hover-text">Unknown Project</p>
+                            <p>Project Two</p>
+                        </a>
                     </div>
                     <div class="project-3">
-
+                        <a href="#" class="project-link">
+                            <img src="/img/unknown.jpg" alt="unknown project">
+                            <p class="hover-text">Unknown Project</p>
+                            <p>Project Three</p>
+                        </a>
                     </div>
                     <div class="project-4">
-
+                        <a href="#" class="project-link">
+                            <img src="/img/unknown.jpg" alt="unknown project">
+                            <p class="hover-text">Unknown Project</p>
+                            <p>Project Four</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="contact-wrapper">
-    
+            <div class="contact-wrapper" id="contact">
+                <form>
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                </form>
             </div>
         </div>
         

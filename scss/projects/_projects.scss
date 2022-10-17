@@ -1,0 +1,177 @@
+// Projects SCSS
+
+.projects-wrapper {
+    margin: 50px auto;
+    justify-content: center;
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 450px;
+        margin: auto;
+
+        div {
+            margin: 20px;
+        }
+
+        .project-1 {
+            position: relative;
+            .hover-text {
+                display: none;
+                color: white;
+                position: absolute;
+                top: 120px;
+                left: 45px;
+                z-index: 2;
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .project-link {
+                text-decoration: none;
+                color: black;
+            }
+
+            .project-link:hover img {
+                filter: brightness(50%);
+            }
+
+            .project-link:hover .hover-text {
+                display: block;
+            }
+        }
+
+        .project-2 {
+            position: relative;
+            .hover-text {
+                display: none;
+                color: white;
+                position: absolute;
+                top: 120px;
+                left: 80px;
+                z-index: 2;
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .project-link {
+                text-decoration: none;
+                color: black;
+            }
+
+            .project-link:hover img {
+                filter: brightness(50%);
+            }
+
+            .project-link:hover .hover-text {
+                display: block;
+            }
+        }
+
+        .project-3 {
+            position: relative;
+            .hover-text {
+                display: none;
+                color: white;
+                position: absolute;
+                top: 120px;
+                left: 80px;
+                z-index: 2;
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .project-link {
+                text-decoration: none;
+                color: black;
+            }
+
+            .project-link:hover img {
+                filter: brightness(50%);
+            }
+
+            .project-link:hover .hover-text {
+                display: block;
+            }
+        }
+
+        .project-4 {
+            position: relative;
+            .hover-text {
+                display: none;
+                color: white;
+                position: absolute;
+                top: 120px;
+                left: 80px;
+                z-index: 2;
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .project-link {
+                text-decoration: none;
+                color: black;
+            }
+
+            .project-link:hover img {
+                filter: brightness(50%);
+            }
+
+            .project-link:hover .hover-text {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projects-wrapper {
+        .project-grid {
+            .project-1 {
+                img {
+                    width: 300px;
+                }
+            }
+            .project-2 {
+                img {
+                    width: 300px;
+                }
+            }
+            .project-3 {
+                img {
+                    width: 300px;
+                }
+            }
+            .project-4 {
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+    
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .projects-wrapper {
+        justify-content: center;
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 700px;
+        }
+    }
+}

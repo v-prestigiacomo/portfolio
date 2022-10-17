@@ -1,35 +1,75 @@
 // Header SCSS
 
-.main-wrapper {
+.wrapper {
     display: block;
+    background-color: white;
     .header-wrapper {
         display: grid;
         background-image: url(../img/header.jpg);
         background-size: cover;
         height: 100vh;
+        
         .header-text {
             display: grid;
             background-color: rgba(#fff, 0.8);
             margin: auto;
-            width: 1000px;
+            width: 450px;
             height: 200px;
             justify-items: center;
 
             h1 {
+                text-align: center;
                 display: block;
-                font-size: 3rem;
+                font-size: 2rem;
                 margin: auto;
                 color: black;
             }
 
             p {
                 display: block;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 margin: auto;
                 color: black;
             }
         }
 
-        
+        .scroll-wrapper {
+            display: flex;
+            height: 100%;
+            margin: auto;
+            
+            a {
+                display: grid;
+                text-decoration: none;
+                margin: auto auto 0px;
+                align-self: flex-end;
+
+                .fa-arrow-down {
+                    margin: auto;
+                    color: white;
+                    font-size: 3rem;
+                }
+    
+                p {
+                    margin: auto;
+                    color: white;
+                    font-size: 2rem;
+                }
+            }
+
+            
+
+        }
+       
     }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        .header-wrapper {
+            .header-text {
+                width: 600px;
+            }
+        }
+    }    
 }

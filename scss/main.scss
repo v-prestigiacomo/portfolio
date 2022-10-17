@@ -4,9 +4,15 @@
 @import 'side_nav/index.scss';
 @import 'projects/index.scss';
 @import 'contact/_index.scss';
+@import 'scs/index';
+@import 'code/code';
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    background-color: white;
 }
 
 body {

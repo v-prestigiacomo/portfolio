@@ -1,26 +1,50 @@
 // Side Nav SCSS
 
+.wrapper {
+    position: relative;
+    .hamburger {
+        position: absolute;
+        z-index: 2;
+        top: 20px;
+        left: 20px;
+        .fa-bars {
+            font-size: 3rem;
+            background-color: rgba(#fff, 0.8);
+            border-radius: 5px;
+            padding: 10px;
+        }
+    }
+    
+}
+
+
 .nav-wrapper {
-    display: block;
+    display: none;
     height: 100%;
-    width: 200px;
+    width: 150px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #fff;
+    border-right: solid 1px black;
 
     .initial-wrapper {
         display: block;
         justify-content: center;
-
-        p {
-            display: block;
-            text-align: center;
-            font-size: 4rem;
-            font-weight: 600;
-            margin: 30px auto;
+        
+        a {
+            text-decoration: none;
+            color: black;
+            p {
+                display: block;
+                text-align: center;
+                font-size: 4rem;
+                font-weight: 600;
+                margin: 30px auto;
+            }
         }
+        
     }
 
     .links-wrapper {
@@ -38,7 +62,7 @@
                 li {
                     margin: 20px 0px;
                     padding: 20px 0px;
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                     font-weight: 600;  
                     
                 }
@@ -80,4 +104,17 @@
         }
     }
 
+}
+
+@media screen and (min-width: 768px) {
+
+    .wrapper {
+        .hamburger {
+            display: none;
+        }
+    }
+
+    .nav-wrapper { 
+        display: block;
+    }
 }
