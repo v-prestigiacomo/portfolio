@@ -78,7 +78,7 @@
 /* line 4, ../../../netMatters/Portfolio/scss/header/_header-page.scss */
 .about-wrapper .header-about-wrapper {
   display: grid;
-  background-image: url(/img/header-top.jpg);
+  background-image: url(img/header-top.jpg);
   background-size: cover;
   height: 200px;
   justify-content: center;
