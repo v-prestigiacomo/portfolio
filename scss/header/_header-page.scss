@@ -5,7 +5,7 @@
         display: grid;
         background-image: url(../img/header-top.jpg);
         background-size: cover;
-        height: 200px;
+        height: 300px;
         justify-content: center;
 
         .header-about-title {
@@ -14,23 +14,13 @@
             background-color: rgba(#fff, 0.8);
             width: 350px;
             margin: auto;
-            margin-left: 30px;
+            margin-top: 100px;
             text-align: center;
             vertical-align: middle;
 
             h1 {
                 margin: auto;
                 vertical-align: middle;
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .about-wrapper {
-        .header-about-wrapper {
-            .header-about-title {
-                margin-left: auto;
             }
         }
     }

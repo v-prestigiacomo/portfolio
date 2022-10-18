@@ -12,6 +12,7 @@
     form {
         display: inline-block;
         margin: auto;
+        width: 90%;
 
         input[type=text], textarea {
             display: block;
@@ -45,9 +46,21 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .contact-wrapper {
+        form {
+            width: 400px;
+            input[type=text], textarea {
+                width: 400px;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .contact-wrapper {
         form {
+            width: 600px;
             input[type=text], textarea {
                 width: 600px;
             }
