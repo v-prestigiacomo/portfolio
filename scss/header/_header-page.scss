@@ -12,14 +12,25 @@
             display: inline-block;
             font-size: 2rem;
             background-color: rgba(#fff, 0.8);
-            width: 400px;
+            width: 350px;
             margin: auto;
+            margin-left: 30px;
             text-align: center;
             vertical-align: middle;
 
             h1 {
                 margin: auto;
                 vertical-align: middle;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-wrapper {
+        .header-about-wrapper {
+            .header-about-title {
+                margin-left: auto;
             }
         }
     }

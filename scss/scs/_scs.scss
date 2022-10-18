@@ -3,8 +3,8 @@
 .main-wrapper {
     display: grid;
     justify-items: left;
-    width: 400px;
-    margin: 30px auto;
+    width: 350px;
+    margin: 30px 20px;
     line-height: 2rem;
 
     a {
@@ -21,6 +21,12 @@
 
     .about-nm {
         text-align: left;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .main-wrapper {
+        margin: 30px auto;
     }
 }
 

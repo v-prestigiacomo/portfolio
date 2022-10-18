@@ -1,12 +1,12 @@
 // Side Nav SCSS
 
-.wrapper {
+.wrapper, .about-wrapper {
     position: relative;
     .hamburger {
         position: absolute;
         z-index: 2;
-        top: 20px;
-        left: 20px;
+        top: 0px;
+        left: 0px;
         .fa-bars {
             font-size: 3rem;
             background-color: rgba(#fff, 0.8);
@@ -14,7 +14,6 @@
             padding: 10px;
         }
     }
-    
 }
 
 
@@ -108,7 +107,7 @@
 
 @media screen and (min-width: 768px) {
 
-    .wrapper {
+    .wrapper, .about-wrapper {
         .hamburger {
             display: none;
         }

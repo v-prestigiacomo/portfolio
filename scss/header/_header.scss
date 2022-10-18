@@ -8,19 +8,20 @@
         background-image: url(../img/header.jpg);
         background-size: cover;
         height: 100vh;
+        width: auto;
         
         .header-text {
             display: grid;
             background-color: rgba(#fff, 0.8);
-            margin: auto;
-            width: 450px;
+            margin: 200px auto auto;
+            width: 100%;
             height: 200px;
             justify-items: center;
 
             h1 {
                 text-align: center;
                 display: block;
-                font-size: 2rem;
+                font-size: 1.8rem;
                 margin: auto;
                 color: black;
             }
@@ -41,19 +42,19 @@
             a {
                 display: grid;
                 text-decoration: none;
-                margin: auto auto 0px;
+                margin: auto auto 10px;
                 align-self: flex-end;
 
                 .fa-arrow-down {
                     margin: auto;
                     color: white;
-                    font-size: 3rem;
+                    font-size: 2rem;
                 }
     
                 p {
                     margin: auto;
                     color: white;
-                    font-size: 2rem;
+                    font-size: 1rem;
                 }
             }
 
@@ -62,6 +63,16 @@
         }
        
     }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        .header-wrapper {
+            .header-text {
+                width: 450px;
+            }
+        }
+    }    
 }
 
 @media screen and (min-width: 1200px) {
