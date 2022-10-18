@@ -32,6 +32,18 @@
     }
 }
 
+.wrapper, .main-wrapper, .about-wrapper {
+    .footer {
+        border-top: solid 1px black;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        justify-self: center;
+        margin: auto;
+    }
+}
+
 @media screen and (min-width: 500px) {
     .main-wrapper {
         margin: 30px auto;
