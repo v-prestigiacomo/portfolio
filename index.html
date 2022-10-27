@@ -14,8 +14,7 @@
         <div class="wrapper">
             <div class="header-wrapper">
                 <div class="header-text">
-                    <h1>My Name Is Vincenzo Prestigiacomo</h1>
-                    <p>I'm a Web Developer</p>
+                    <h1 class="txt1"></h1>
                 </div>
                 <div class="scroll-wrapper">
                     <a href="#projects">
@@ -24,12 +23,13 @@
                     </a>
                 </div>
             </div>
-            <div class="hamburger">
+            <div class="hamburger" onclick="openNav()">
                 <i class="fa-solid fa-bars"></i>
             </div>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper" id="mySidenav">
                 <div class="initial-wrapper">
                     <a href="index.html"><p>VP</p></a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 </div>
                 <div class="links-wrapper">
                     <ul>
@@ -56,7 +56,7 @@
             <div class="projects-wrapper" id="projects">
                 <div class="project-grid">
                     <div class="project-1">
-                        <a href="https://v-prestigiacomo.github.io/html_css_reflection/" target="_blank" class="project-link">
+                        <a href="http://netmatters.vincenzo-prestigiacomo.netmatters-scs.co.uk/" target="_blank" class="project-link">
                             <img src="img/p1.jpg" alt="project one image, clone of the netmatters website">
                             <p class="hover-text">A Reproduction of the NetMatters Home Page</p>
                             <p class="project-1-name">Project One</p>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="contact-wrapper" id="contact">
-                <form>
+                <form name="contactForm" onsubmit="return validateForm()">
 
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -104,7 +104,8 @@
             <div class="footer">
                 <p>Created by Vincenzo Prestigiacomo</p>
             </div>
-        </div>
-        
+        </div>        
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
     </body>
 </html>

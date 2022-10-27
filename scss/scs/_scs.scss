@@ -34,7 +34,10 @@
 
 .wrapper, .main-wrapper, .about-wrapper {
     .footer {
+        position: static;
+        bottom: 0;
         border-top: solid 1px black;
+        background-color: white;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -50,7 +53,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     .main-wrapper {
         width: 700px;
     }
