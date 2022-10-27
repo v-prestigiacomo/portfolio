@@ -488,6 +488,11 @@
 }
 
 /* line 27, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+.contact-wrapper form .form-field {
+  margin: 10px 0px;
+}
+
+/* line 31, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
 .contact-wrapper form input[type=submit] {
   display: block;
   margin-top: 20px;
@@ -498,38 +503,53 @@
   font-size: 1.2rem;
 }
 
-/* line 37, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+/* line 41, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
 .contact-wrapper form input[type=submit]:hover {
   background-color: #555;
   cursor: pointer;
 }
 
-/* line 42, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+/* line 46, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
 .contact-wrapper form label {
   display: block;
   text-align: left;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 51, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+  /* line 55, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
   .contact-wrapper form {
     width: 400px;
   }
-  /* line 53, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+  /* line 57, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
   .contact-wrapper form input[type=text], .contact-wrapper form textarea {
     width: 400px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 62, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+  /* line 66, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
   .contact-wrapper form {
     width: 600px;
   }
-  /* line 64, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+  /* line 68, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
   .contact-wrapper form input[type=text], .contact-wrapper form textarea {
     width: 600px;
   }
+}
+
+/* line 75, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+.success input[type=text] {
+  box-shadow: 0px 0px 5px lime;
+}
+
+/* line 79, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+.error input[type=text] {
+  box-shadow: 0px 0px 5px red;
+}
+
+/* line 83, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
+.error textarea {
+  box-shadow: 0px 0px 5px red;
 }
 
 /* line 3, ../../../netMatters/Portfolio/scss/scs/_scs.scss */

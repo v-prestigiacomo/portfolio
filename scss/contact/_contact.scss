@@ -24,6 +24,10 @@
 
         }
 
+        .form-field {
+            margin: 10px 0px;
+        }
+
         input[type=submit] {
             display: block;
             margin-top: 20px;
@@ -66,4 +70,16 @@
             }
         }
     }
+}
+
+.success input[type=text]{
+    box-shadow: 0px 0px 5px rgb(0, 255, 0);
+}
+
+.error input[type=text] {
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+}
+
+.error textarea {
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
 }
