@@ -9,11 +9,11 @@ var typed = new Typed('.txt1', {
 //side nav open and close
 
 function openNav() {
-    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("mySidenav").style.width = "150px";
   }
 
   function closeNav() {
-    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("mySidenav").style.width = "0";
   }
 
 
@@ -157,12 +157,12 @@ form.addEventListener('submit', function (e) {
       isMessageValid = checkMessage();
 
   let isFormValid = isFirstNameValid &&
-      isLastNameValid &&
-      isEmailValid;
+      isEmailValid && isSubjectValid && isMessageValid;
 
   // submit to the server if the form is valid
   if (isFormValid) {
-
+  document.getElementById("form").submit();
+  document.getElementById("form").reset();
   }
 });
 

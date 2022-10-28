@@ -1,11 +1,19 @@
 // code examples scss
 
-.coming-soon-wrapper {
-    display: flex;
-    text-align: center;
-    vertical-align: middle;
-    img {
-        width: 80%;
-        margin: auto;
+.main-wrapper {
+    justify-content: center;
+    
+    .code {
+        h2 {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        p {
+            text-align: center;
+        }
     }
 }

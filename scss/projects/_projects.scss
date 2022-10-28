@@ -3,6 +3,11 @@
 .projects-wrapper {
     margin: 50px auto;
     justify-content: center;
+
+    h2 {
+        display: block;
+        text-align: center;
+    }
     .project-grid {
         display: grid;
         grid-template-columns: 1fr;

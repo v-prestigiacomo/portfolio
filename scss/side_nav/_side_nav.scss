@@ -19,13 +19,15 @@
 
 
 .nav-wrapper {
-    display: none;
+    
     height: 100%;
-    width: 150px;
+    width: 0px;
     position: fixed;
+    overflow-x: hidden;
     z-index: 8;
     top: 0;
     left: 0;
+    transition: 0.5s;
     background-color: #fff;
     border-right: solid 1px black;
 
@@ -63,6 +65,7 @@
             list-style: none;
             margin: none;
             padding: 0px;
+            transition: 0.3s;
 
             a {
                 text-decoration: none;
@@ -125,6 +128,7 @@
 
     .nav-wrapper { 
         display: block;
+        width: 150px;
         .initial-wrapper {
             .closebtn {
                 display: block;
