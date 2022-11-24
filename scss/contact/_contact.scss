@@ -21,6 +21,7 @@
             resize: vertical;
             padding: 15px;
             font-size: 1.1rem;
+            font-family: 'Noto Sans Mono', monospace
 
         }
 
@@ -71,9 +72,9 @@
 @media screen and (min-width: 768px) {
     .contact-wrapper {
         form {
-            width: 400px;
+            width: 650px;
             input[type=text], textarea {
-                width: 400px;
+                width: 650px;
             }
         }
     }
@@ -82,9 +83,9 @@
 @media screen and (min-width: 1200px) {
     .contact-wrapper {
         form {
-            width: 600px;
+            width: 650px;
             input[type=text], textarea {
-                width: 600px;
+                width: 650px;
             }
         }
     }

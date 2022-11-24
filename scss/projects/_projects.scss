@@ -20,19 +20,22 @@
 
         .project-1 {
             position: relative;
-            .hover-text {
-                display: none;
-                color: white;
-                position: absolute;
-                top: 120px;
-                left: 45px;
-                z-index: 2;
-            }
+            border: 1px solid #ccc;
+            max-width: 500px;
+            box-shadow: 2px 2px 10px rgba(#000000, 0.3);
+            transition: all 1s;
 
             img {
                 width: 100%;
+                max-width: 500px;
                 object-fit: cover;
-                border: 1px solid black;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .project-1-name {
+                padding: 5px 10px;
+                margin: auto;
+                text-align: justify;
             }
 
             .project-link {
@@ -40,30 +43,43 @@
                 color: black;
             }
 
-            .project-link:hover img {
-                filter: brightness(50%);
-            }
+            .project-links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin: 5px;
 
-            .project-link:hover .hover-text {
-                display: block;
+                a {
+                    text-decoration: none;
+                }
+
+                .project-view, .project-git {
+                    text-align: center;
+                    border: 1px solid black;
+                    margin: 5px;
+                    padding: 5px;
+                    color: black;
+                }
+
+                .project-view:hover, .project-git:hover {
+                    border: none;
+                    background-color: black;
+                    color: white;
+                }
             }
         }
 
         .project-2 {
             position: relative;
-            .hover-text {
-                display: none;
-                color: white;
-                position: absolute;
-                top: 120px;
-                left: 80px;
-                z-index: 2;
-            }
+            border: 1px solid #ccc;
+            max-width: 500px;
+            box-shadow: 2px 2px 10px rgba(#000000, 0.3);
+            transition: all 1s;
 
             img {
                 width: 100%;
                 object-fit: cover;
-                border: 1px solid black;
+                border-bottom: 1px solid #ccc;
             }
 
             .project-link {
@@ -71,30 +87,56 @@
                 color: black;
             }
 
-            .project-link:hover img {
-                filter: brightness(50%);
+            .project-2-name {
+                padding: 5px 10px;
+                margin: auto;
+                text-align: justify;
             }
 
-            .project-link:hover .hover-text {
-                display: block;
+            .project-links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin: 5px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                .project-view, .project-git {
+                    text-align: center;
+                    border: 1px solid black;
+                    margin: 5px;
+                    margin-top: 27px;
+                    padding: 5px;
+                    color: black;
+                }
+
+                .project-view:hover, .project-git:hover {
+                    border: none;
+                    background-color: black;
+                    color: white;
+                }
             }
         }
 
         .project-3 {
             position: relative;
-            .hover-text {
-                display: none;
-                color: white;
-                position: absolute;
-                top: 120px;
-                left: 80px;
-                z-index: 2;
-            }
+            border: 1px solid #ccc;
+            max-width: 500px;
+            box-shadow: 2px 2px 10px rgba(#000000, 0.3);
+            transition: all 1s;
 
             img {
                 width: 100%;
                 object-fit: cover;
-                border: 1px solid black;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .project-3-name {
+                padding: 5px 10px;
+                margin: auto;
+                text-align: justify;
             }
 
             .project-link {
@@ -102,30 +144,50 @@
                 color: black;
             }
 
-            .project-link:hover img {
-                filter: brightness(50%);
-            }
+            .project-links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin: 5px;
 
-            .project-link:hover .hover-text {
-                display: block;
+                a {
+                    text-decoration: none;
+                }
+
+                .project-view, .project-git {
+                    text-align: center;
+                    border: 1px solid black;
+                    margin: 5px;
+                    margin-top: 48px;
+                    padding: 5px;
+                    color: black;
+                }
+
+                .project-view:hover, .project-git:hover {
+                    border: none;
+                    background-color: black;
+                    color: white;
+                }
             }
         }
 
         .project-4 {
             position: relative;
-            .hover-text {
-                display: none;
-                color: white;
-                position: absolute;
-                top: 120px;
-                left: 80px;
-                z-index: 2;
-            }
+            border: 1px solid #ccc;
+            max-width: 500px;
+            box-shadow: 2px 2px 10px rgba(#000000, 0.3);
+            transition: all 1s;
 
             img {
                 width: 100%;
                 object-fit: cover;
-                border: 1px solid black;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .project-4-name {
+                padding: 5px 10px;
+                margin: auto;
+                text-align: justify;
             }
 
             .project-link {
@@ -133,39 +195,50 @@
                 color: black;
             }
 
-            .project-link:hover img {
-                filter: brightness(50%);
-            }
+            .project-links {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin: 5px;
 
-            .project-link:hover .hover-text {
-                display: block;
+                a {
+                    text-decoration: none;
+                }
+
+                .project-view, .project-git {
+                    text-align: center;
+                    border: 1px solid black;
+                    margin: 5px;
+                    margin-top: 27px;
+                    padding: 5px;
+                    color: black;
+                }
+
+                .project-view:hover, .project-git:hover {
+                    border: none;
+                    background-color: black;
+                    color: white;
+                }
             }
         }
+
+        
     }
 }
 
 @media screen and (min-width: 768px) {
     .projects-wrapper {
         .project-grid {
-            .project-1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 700px;
+            .project-1, .project-2, .project-3, .project-4 {
                 img {
-                    width: 300px;
+                    width: 100%;
                 }
             }
-            .project-2 {
-                img {
-                    width: 300px;
-                }
-            }
-            .project-3 {
-                img {
-                    width: 300px;
-                }
-            }
-            .project-4 {
-                img {
-                    width: 300px;
-                }
+            .project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover {
+                transform: scale(1.1);
             }
         }
     }
