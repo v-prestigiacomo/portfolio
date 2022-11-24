@@ -1,7 +1,7 @@
 //typewriter effect
 
 var typed = new Typed('.txt1', {
-    strings: ["My Name is Vincenzo Prestigiacomo <br> I'm a Web Developer"],
+    strings: ["<h1>My Name is Vincenzo Prestigiacomo</h1> <p>I'm a Web Developer</p>"],
     typeSpeed: 100
 })
 
@@ -9,7 +9,7 @@ var typed = new Typed('.txt1', {
 //side nav open and close
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "150px";
+    document.getElementById("mySidenav").style.width = "200px";
   }
 
   function closeNav() {
