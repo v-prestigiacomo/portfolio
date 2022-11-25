@@ -225,13 +225,7 @@
 }
 
 /* line 70, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
-.nav-wrapper .links-wrapper ul a {
-  text-decoration: none;
-  color: black;
-}
-
-/* line 74, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
-.nav-wrapper .links-wrapper ul a li {
+.nav-wrapper .links-wrapper ul li {
   margin: 0px;
   padding: 20px 0px;
   font-size: 1.1rem;
@@ -240,56 +234,63 @@
   border-bottom: solid 2px white;
 }
 
-/* line 84, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
-.nav-wrapper .links-wrapper ul a li:hover {
+/* line 78, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+.nav-wrapper .links-wrapper ul li a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+/* line 85, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+.nav-wrapper .links-wrapper ul li:hover {
   border-top: solid 2px black;
   border-bottom: solid 2px black;
 }
 
-/* line 94, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+/* line 92, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
 .nav-wrapper .social-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
 
-/* line 99, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+/* line 97, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
 .nav-wrapper .social-wrapper .github {
   font-size: 3rem;
   margin: auto;
 }
 
-/* line 104, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+/* line 102, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
 .nav-wrapper .social-wrapper .linkedin {
   font-size: 3rem;
   margin: auto;
 }
 
-/* line 109, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+/* line 107, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
 .nav-wrapper .social-wrapper a {
   color: black;
 }
 
-/* line 113, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+/* line 111, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
 .nav-wrapper .social-wrapper .linkedin-link:hover {
   color: #0072b1;
 }
 
-/* line 116, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+/* line 114, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
 .nav-wrapper .social-wrapper .github-link:hover {
   color: #666;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 126, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+  /* line 124, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
   .wrapper .hamburger, .about-wrapper .hamburger {
     display: block;
   }
-  /* line 131, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+  /* line 129, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
   .nav-wrapper {
     display: block;
   }
-  /* line 135, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
+  /* line 133, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
   .nav-wrapper .initial-wrapper .closebtn {
     display: block;
   }

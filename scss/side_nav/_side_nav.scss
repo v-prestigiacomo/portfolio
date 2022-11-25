@@ -67,10 +67,6 @@
             padding: 0px;
             transition: 0.3s;
 
-            a {
-                text-decoration: none;
-                color: black;
-
                 li {
                     margin: 0px;
                     padding: 20px 0px;
@@ -79,15 +75,17 @@
                     border-top: solid 2px white;
                     border-bottom: solid 2px white;
                     
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        margin: auto;
+                    }
                 }
     
                 li:hover {
                     border-top: solid 2px black;
                     border-bottom: solid 2px black;
-                }
-            }
-
-            
+                }            
         }
     }
 
