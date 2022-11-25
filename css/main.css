@@ -760,28 +760,29 @@
 }
 
 /* line 3, ../../../netMatters/Portfolio/scss/code/_code.scss */
-.main-wrapper {
+.about-wrapper {
   justify-content: center;
+  width: 100vw;
 }
 
 /* line 6, ../../../netMatters/Portfolio/scss/code/_code.scss */
-.main-wrapper .code {
+.about-wrapper .code {
   margin: 10px;
 }
 
 /* line 8, ../../../netMatters/Portfolio/scss/code/_code.scss */
-.main-wrapper .code h2 {
+.about-wrapper .code h2 {
   text-align: center;
 }
 
 /* line 11, ../../../netMatters/Portfolio/scss/code/_code.scss */
-.main-wrapper .code img {
+.about-wrapper .code img {
   width: 100%;
   height: auto;
 }
 
 /* line 16, ../../../netMatters/Portfolio/scss/code/_code.scss */
-.main-wrapper .code p {
+.about-wrapper .code p {
   text-align: center;
 }
 
