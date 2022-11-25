@@ -251,8 +251,20 @@
         justify-content: center;
         .project-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            width: 700px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 1200px;
+
+            .project-2 {
+                .project-links {
+                    margin-top: 26px;
+                }
+            }
+
+            .project-4 {
+                .project-links {
+                    margin-top: 26px;
+                }
+            }
         }
     }
 }

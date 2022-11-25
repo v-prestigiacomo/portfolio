@@ -581,8 +581,16 @@
   /* line 252, ../../../netMatters/Portfolio/scss/projects/_projects.scss */
   .projects-wrapper .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 700px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1200px;
+  }
+  /* line 258, ../../../netMatters/Portfolio/scss/projects/_projects.scss */
+  .projects-wrapper .project-grid .project-2 .project-links {
+    margin-top: 26px;
+  }
+  /* line 264, ../../../netMatters/Portfolio/scss/projects/_projects.scss */
+  .projects-wrapper .project-grid .project-4 .project-links {
+    margin-top: 26px;
   }
 }
 
@@ -756,18 +764,23 @@
   justify-content: center;
 }
 
-/* line 7, ../../../netMatters/Portfolio/scss/code/_code.scss */
+/* line 6, ../../../netMatters/Portfolio/scss/code/_code.scss */
+.main-wrapper .code {
+  margin: 10px;
+}
+
+/* line 8, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .main-wrapper .code h2 {
   text-align: center;
 }
 
-/* line 10, ../../../netMatters/Portfolio/scss/code/_code.scss */
+/* line 11, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .main-wrapper .code img {
   width: 100%;
   height: auto;
 }
 
-/* line 15, ../../../netMatters/Portfolio/scss/code/_code.scss */
+/* line 16, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .main-wrapper .code p {
   text-align: center;
 }
