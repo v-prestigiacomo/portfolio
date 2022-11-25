@@ -128,9 +128,9 @@
 /* line 11, ../../../netMatters/Portfolio/scss/header/_header-page.scss */
 .about-wrapper .header-about-wrapper .header-about-title {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 350px;
+  width: 100vw;
   margin: auto;
   margin-top: 100px;
   text-align: center;
@@ -141,6 +141,13 @@
 .about-wrapper .header-about-wrapper .header-about-title h1 {
   margin: auto;
   vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 32, ../../../netMatters/Portfolio/scss/header/_header-page.scss */
+  .about-wrapper .header-about-wrapper .header-about-title {
+    width: 350px;
+  }
 }
 
 /* line 3, ../../../netMatters/Portfolio/scss/side_nav/_side_nav.scss */
@@ -685,11 +692,11 @@
 @media screen and (min-width: 1200px) {
   /* line 85, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
   .contact-wrapper form {
-    width: 650px;
+    width: 1150px;
   }
   /* line 87, ../../../netMatters/Portfolio/scss/contact/_contact.scss */
   .contact-wrapper form input[type=text], .contact-wrapper form textarea {
-    width: 650px;
+    width: 1150px;
   }
 }
 
@@ -772,7 +779,7 @@
 
 /* line 6, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .about-wrapper .main-wrapper {
-  margin-bottom: 290px;
+  margin-bottom: auto;
 }
 
 /* line 9, ../../../netMatters/Portfolio/scss/code/_code.scss */

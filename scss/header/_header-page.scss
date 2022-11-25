@@ -10,9 +10,9 @@
 
         .header-about-title {
             display: inline-block;
-            font-size: 2rem;
+            font-size: 1.5rem;
             background-color: rgba(#fff, 0.8);
-            width: 350px;
+            width: 100vw;
             margin: auto;
             margin-top: 100px;
             text-align: center;
@@ -21,6 +21,16 @@
             h1 {
                 margin: auto;
                 vertical-align: middle;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-wrapper {
+        .header-about-wrapper {
+            .header-about-title {
+                width: 350px;
             }
         }
     }
