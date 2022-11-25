@@ -695,7 +695,7 @@
 /* line 3, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
 .main-wrapper {
   display: grid;
-  justify-items: center;
+  justify-items: left;
   width: 90vw;
   margin: 20px;
   line-height: 2rem;
@@ -734,7 +734,6 @@
 
 /* line 36, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
 .wrapper .footer, .main-wrapper .footer, .about-wrapper .footer {
-  position: static;
   border-top: solid 1px black;
   background-color: white;
   left: 0;
@@ -742,18 +741,23 @@
   width: 100%;
   text-align: center;
   justify-self: center;
-  margin: auto;
+  margin-top: auto;
+}
+
+/* line 47, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
+.wrapper .footer p, .main-wrapper .footer p, .about-wrapper .footer p {
+  margin: 0px;
 }
 
 @media screen and (min-width: 500px) {
-  /* line 50, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
+  /* line 54, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
   .main-wrapper {
     margin: 30px auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 56, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
+  /* line 60, ../../../netMatters/Portfolio/scss/scs/_scs.scss */
   .main-wrapper {
     width: 700px;
   }
@@ -765,18 +769,23 @@
   width: 100vw;
 }
 
-/* line 8, ../../../netMatters/Portfolio/scss/code/_code.scss */
+/* line 6, ../../../netMatters/Portfolio/scss/code/_code.scss */
+.about-wrapper .main-wrapper {
+  margin-bottom: 290px;
+}
+
+/* line 9, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .about-wrapper .main-wrapper .code h2 {
   text-align: center;
 }
 
-/* line 11, ../../../netMatters/Portfolio/scss/code/_code.scss */
+/* line 12, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .about-wrapper .main-wrapper .code img {
   width: 100%;
   height: auto;
 }
 
-/* line 16, ../../../netMatters/Portfolio/scss/code/_code.scss */
+/* line 17, ../../../netMatters/Portfolio/scss/code/_code.scss */
 .about-wrapper .main-wrapper .code p {
   text-align: center;
 }
@@ -800,8 +809,11 @@ html {
 
 /* line 20, ../../../netMatters/Portfolio/scss/main.scss */
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Noto Sans Mono', monospace;
   margin: 0px;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=main.css.map */

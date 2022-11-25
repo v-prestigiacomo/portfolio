@@ -2,7 +2,7 @@
 
 .main-wrapper {
     display: grid;
-    justify-items: center;
+    justify-items: left;
     width: 90vw;
     margin: 20px;
     line-height: 2rem;
@@ -34,7 +34,7 @@
 
 .wrapper, .main-wrapper, .about-wrapper {
     .footer {
-        position: static;
+        //position: relative;
         border-top: solid 1px black;
         background-color: white;
         left: 0;
@@ -42,7 +42,11 @@
         width: 100%;
         text-align: center;
         justify-self: center;
-        margin: auto;
+        margin-top: auto;
+
+        p {
+            margin: 0px;
+        }
     }
 }
 

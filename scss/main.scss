@@ -18,6 +18,9 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Noto Sans Mono', monospace;
     margin: 0px;
+    min-height: 100vh;
 }
