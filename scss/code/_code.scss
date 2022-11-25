@@ -3,18 +3,20 @@
 .about-wrapper {
     justify-content: center;
     width: 100vw;
-    .code {
-        margin: 10px;
-        h2 {
-            text-align: center;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
-        
-        p {
-            text-align: center;
+    .main-wrapper {  
+        .code {
+            h2 {
+                text-align: center;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            
+            p {
+                text-align: center;
+            }
         }
     }
+    
 }
